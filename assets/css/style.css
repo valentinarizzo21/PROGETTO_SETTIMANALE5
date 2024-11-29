@@ -8,6 +8,7 @@
 header {
   background-color: #ffc016;
   height: fit-content;
+  z-index: 50;
 }
 
 .bold {
@@ -25,6 +26,8 @@ header {
   position: sticky;
   top: 0;
   border-bottom: 1px solid black;
+  background-color: #ffc016;
+  z-index: 100;
 }
 
 .firstHeader nav {
@@ -40,17 +43,19 @@ header {
 
 .firstHeader nav a:hover {
   cursor: pointer;
-  color: green;
+  color: #1a8917;
   text-decoration: underline;
 }
 
 .firstHeader nav a:last-child,
-.writingsHeader button {
-  background-color: black;
+.writingsHeader button{
+  background-color: #1a8917;
+  box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.5);
   color: white;
   border: none;
   border-radius: 30px;
   padding: 0.5rem 2rem;
+
 }
 
 /*------SECONDA PARTE DELLA HEADER--------*/
@@ -84,7 +89,14 @@ header {
   font-size: 20px;
 }
 
-.writingsHeader button {
+.writingsHeader button{
+  background-color: black;
+}
+
+.writingsHeader button:hover {
+  cursor: pointer;
+  background-color: #1a8917;
+  box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.5);
   font-size: 16px; /*size 16 perchè il testo de fault dentro le a varia dai 14 ai 18 px*/
 }
 
@@ -153,8 +165,69 @@ section .image {
   vertical-align: middle;
 }
 
-/*------- SECTION 2---------
------------ARTICLE-------------*/
+/*------- SECTION 2---------*/
+
+/*------ASIDE------*/
+
+aside{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  float: right;
+  padding: 1rem 2rem 1rem 0;
+}
+
+.containerObj{
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.containerObj p {
+  flex-grow: 2;
+  border: 1px solid black;
+  opacity: 50%;
+  padding: 1rem;
+}
+
+.containerObj p:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: black;
+  opacity: 50%;
+  cursor: pointer;
+}
+
+.listObj ul{
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.listObj li{
+  list-style-type: none;
+  margin: 0.5rem;
+}
+
+.listObj a{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.listObj a:hover{
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  padding: 0.5rem;
+}
+
+
+
+
+
+
+/*--------ARTICLE--------*/
 
 article {
   display: flex;
@@ -217,50 +290,8 @@ article {
   float: right;
 }
 
-/*------ASIDE------*/
 
-aside{
-  float: right;
-  padding: 1rem 2rem;
-}
 
-aside h4{
-  margin: 1rem 0;
-}
 
-.containerObj{
-  width: 500px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.containerObj div {
-  flex-shrink: 2;
-  border: 1px solid black;
-  opacity: 50%;
-  padding: 0.5rem;
-  margin: 1rem 0;
-}
-
-.containerObj div:hover {
-  background-color: rgba(0, 0, 0, 0.1);
-  color: black;
-  opacity: 50%;
-  cursor: pointer;
-}
-
-aside ul{
-    width: fit-content;
-}
-
-aside ul li{
-  list-style: none;
-}
-
-aside ul li a {
-  text-decoration: none;
-  color: rgba(0, 0, 0, 0.3);
-}
 
 
