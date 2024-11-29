@@ -178,7 +178,7 @@ aside{
 }
 
 .containerObj{
-  width: 400px;
+  width: 350px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -200,7 +200,7 @@ aside{
 }
 
 .listObj ul{
-  width: 400px;
+  width: 350px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
