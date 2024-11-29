@@ -10,8 +10,8 @@ header {
   height: fit-content;
 }
 
-.bold{
-    font-weight: bold;
+.bold {
+  font-weight: bold;
 }
 
 /*------PRIMA PARTE DELLA HEADER--------*/
@@ -33,205 +33,221 @@ header {
   align-items: center;
 }
 
-.firstHeader nav a{
-    text-decoration: none;
-    color: white;
+.firstHeader nav a {
+  text-decoration: none;
+  color: white;
 }
 
-.firstHeader nav a:hover{
-    cursor: pointer;
-    color: green;
-    text-decoration: underline;
+.firstHeader nav a:hover {
+  cursor: pointer;
+  color: green;
+  text-decoration: underline;
 }
 
-.firstHeader nav a:last-child, .writingsHeader button{
-    background-color: black;
-    color: white;
-    border: none;
-    border-radius: 30px;
-    padding: 0.5rem 2rem;
+.firstHeader nav a:last-child,
+.writingsHeader button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 0.5rem 2rem;
 }
-
 
 /*------SECONDA PARTE DELLA HEADER--------*/
 
-
-.displayM{
-    width: 30%;
+.displayM {
+  width: 30%;
 } /*DIMENSIONE LE M*/
 
-.secondHeader{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid black;
+.secondHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
 }
 
-.writingsHeader{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: flex-start;
-    margin-left: 5rem;
+.writingsHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  margin-left: 5rem;
 }
 
-.writingsHeader h1{
-    font-family: "Spectral", serif;
-    font-size: 60px;
-    font-weight: 500;
+.writingsHeader h1 {
+  font-family: "Spectral", serif;
+  font-size: 60px;
+  font-weight: 500;
 }
 
-.writingsHeader p{
-    font-size: 20px;
+.writingsHeader p {
+  font-size: 20px;
 }
 
-.writingsHeader button{
-    font-size: 16px; /*size 16 perchè il testo de fault dentro le a varia dai 14 ai 18 px*/
+.writingsHeader button {
+  font-size: 16px; /*size 16 perchè il testo de fault dentro le a varia dai 14 ai 18 px*/
 }
 
 /* ------ MAIN SECTION--------
 -----------SECTION 1-----------*/
 
-section{
-    padding: 2rem 5rem;
-    height: fit-content;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+section {
+  padding: 2rem 5rem;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-section h4{
-    font-size: 12px;
-    width: 100%;
-    margin-bottom: 1rem;
+section h4 {
+  font-size: 12px;
+  width: 100%;
+  margin-bottom: 1rem;
 }
 
-section .image{
-    margin-right: 1rem;
+section .image {
+  margin-right: 1rem;
 }
 
-section h4, section .image{
-    display: inline-block;
-    vertical-align: middle;
+section h4,
+section .image {
+  display: inline-block;
+  vertical-align: middle;
 }
 
-.box{
-    flex-basis: 30%;
-    height: fit-content;
-    width: fit-content;
-    display: flex;
+.box {
+  flex-basis: 30%;
+  height: fit-content;
+  width: fit-content;
+  display: flex;
 }
 
-.box p{
-    margin: 1rem;
+.box p {
+  margin: 1rem;
 }
 
-.number{
-    font-size: 25px;
-    opacity: 50%;
-    letter-spacing: 3px;
+.number {
+  font-size: 25px;
+  opacity: 50%;
+  letter-spacing: 3px;
 }
 
-.name{
-    font-size: 14px;
+.name {
+  font-size: 14px;
 }
 
-.internalBoxOne p:last-child{
-    opacity: 50%;
+.internalBoxOne p:last-child {
+  opacity: 50%;
 }
 
-.box img, .imageReference{
-    border-radius: 50%;
-    width: 20px; 
+.box img,
+.imageReference {
+  border-radius: 50%;
+  width: 20px;
 }
 
-.internalBoxOne p, .internalBoxOne img{
-    display: inline-block;
-    vertical-align: middle;
+.internalBoxOne p,
+.internalBoxOne img {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 /*------- SECTION 2---------
 -----------ARTICLE-------------*/
-article{
-    display: flex;
-    flex-direction: column;
-    padding: 2rem 1rem 2rem 5rem;
-    max-width: 60%;
+article {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem 2rem 5rem;
+  max-width: 60%;
 }
 
-
-
 .news {
-    display: flex;
-    width: 100%;
-    gap: 40px;
-    margin-bottom: 2rem;
+  display: flex;
+  width: 100%;
+  gap: 40px;
+  margin-bottom: 2rem;
 }
 
 .imageReference {
-    max-width: 100%; 
-    height: auto; 
-    align-self: flex-start; 
+  max-width: 100%;
+  height: auto;
+  align-self: flex-start;
 }
 
-.articleImage { 
-    height: auto;    
-    align-self: center;
-    width: 200px;
+.articleImage {
+  height: auto;
+  align-self: center;
+  width: 200px;
 }
 
 .newsContainer {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.date{
-    opacity: 50%;
+.date {
+  opacity: 50%;
 }
 
-.date span{
-    background-color: gray;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 30px;
+.date span {
+  background-color: gray;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 30px;
 }
 
-.date span, .date img {
-    margin-left: 1rem;
+.date span,
+.date img {
+  margin-left: 1rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.date span:hover {
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+
+.bookmark {
+  float: right;
+}
+
+/*------ASIDE------*/
+
+aside div {
+  max-width: 50%;
+  display: flex;
+}
+
+aside div p {
+  border: 1px solid black;
+  opacity: 50%;
+  padding: 0.5rem;
+  margin: 1rem 0;
+}
+
+aside div p:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: black;
+  opacity: 50%;
+  cursor: pointer;
+}
+
+aside ul li{
+  list-style: none;
+}
+
+aside ul li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+article, aside{
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
 }
-
-.date span:hover{
-    cursor: pointer;
-    background-color: white;
-    border: 1px solid black;
-    color: black;
-}
-
-.bookmark{
-    float: right;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
