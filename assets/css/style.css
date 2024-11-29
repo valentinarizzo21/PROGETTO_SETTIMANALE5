@@ -93,12 +93,12 @@ header {
 -----------SECTION 1-----------*/
 
 section{
-    padding: 1rem 5rem;
+    padding: 2rem 5rem;
     height: fit-content;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 section h4{
@@ -118,7 +118,7 @@ section h4, section .image{
 
 .box{
     flex-basis: 30%;
-    height: 20vh;
+    height: fit-content;
     width: fit-content;
     display: flex;
 }
@@ -153,6 +153,66 @@ section h4, section .image{
 
 /*------- SECTION 2---------
 -----------ARTICLE-------------*/
+
+article{
+    display: flex;
+    padding: 2rem 5rem;
+}
+.news {
+    display: flex;
+    width: 60%;
+    gap: 40px;
+}
+
+.imageReference {
+    max-width: 100%; 
+    height: auto; 
+    align-self: flex-start; 
+}
+
+.articleImage { 
+    height: auto;    
+    align-self: center;
+    flex-shrink: 0; 
+    width: 200px;
+}
+
+.newsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.date{
+    opacity: 50%;
+}
+
+.date span{
+    background-color: gray;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.date span, .date img {
+    margin-left: 1rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.date span:hover{
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+.bookmark{
+    float: right;
+}
+
+
+
 
 
 
