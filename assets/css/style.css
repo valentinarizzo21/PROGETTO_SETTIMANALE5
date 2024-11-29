@@ -153,17 +153,20 @@ section h4, section .image{
 
 /*------- SECTION 2---------
 -----------ARTICLE-------------*/
-
-.articleNews{
+article{
     display: flex;
     flex-direction: column;
-    padding: 2rem 5rem;
+    padding: 2rem 1rem 2rem 5rem;
+    max-width: 60%;
 }
+
+
 
 .news {
     display: flex;
-    width: 60%;
+    width: 100%;
     gap: 40px;
+    margin-bottom: 2rem;
 }
 
 .imageReference {
@@ -175,7 +178,6 @@ section h4, section .image{
 .articleImage { 
     height: auto;    
     align-self: center;
-    flex-shrink: 0; 
     width: 200px;
 }
 
