@@ -159,6 +159,7 @@ section h4, section .image{
     flex-direction: column;
     padding: 2rem 5rem;
 }
+
 .news {
     display: flex;
     width: 60%;
