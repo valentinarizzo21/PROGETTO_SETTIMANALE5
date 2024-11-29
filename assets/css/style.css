@@ -219,8 +219,11 @@ article {
 /*------ASIDE------*/
 
 aside div {
-  max-width: 50%;
+  max-width: 40%;
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 aside div p {
@@ -235,6 +238,10 @@ aside div p:hover {
   color: black;
   opacity: 50%;
   cursor: pointer;
+}
+
+aside ul{
+    width: fit-content;
 }
 
 aside ul li{
