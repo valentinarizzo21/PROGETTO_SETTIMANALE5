@@ -160,7 +160,7 @@ article {
   display: flex;
   flex-direction: column;
   padding: 2rem 1rem 2rem 5rem;
-  max-width: 60%;
+  max-width: 800px;
 }
 
 .news {
@@ -178,7 +178,7 @@ article {
 
 .articleImage {
   height: auto;
-  align-self: center;
+  align-self: flex-end;
   width: 200px;
 }
 
@@ -221,29 +221,29 @@ article {
 
 aside{
   float: right;
-  width: 400px;
+  padding: 1rem 2rem;
 }
 
 aside h4{
-  width: fit-content;
+  margin: 1rem 0;
 }
 
-aside div {
-  max-width: 40%;
+.containerObj{
+  width: 500px;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-evenly;
+  gap: 10px;
 }
 
-aside div p {
+.containerObj div {
+  flex-shrink: 2;
   border: 1px solid black;
   opacity: 50%;
   padding: 0.5rem;
   margin: 1rem 0;
 }
 
-aside div p:hover {
+.containerObj div:hover {
   background-color: rgba(0, 0, 0, 0.1);
   color: black;
   opacity: 50%;
@@ -263,8 +263,4 @@ aside ul li a {
   color: rgba(0, 0, 0, 0.3);
 }
 
-article, aside{
-    display: inline-block;
-    vertical-align: top;
-}
 
