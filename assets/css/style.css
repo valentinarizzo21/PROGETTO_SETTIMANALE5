@@ -154,8 +154,9 @@ section h4, section .image{
 /*------- SECTION 2---------
 -----------ARTICLE-------------*/
 
-article{
+.articleNews{
     display: flex;
+    flex-direction: column;
     padding: 2rem 5rem;
 }
 .news {
