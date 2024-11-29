@@ -155,6 +155,7 @@ section .image {
 
 /*------- SECTION 2---------
 -----------ARTICLE-------------*/
+
 article {
   display: flex;
   flex-direction: column;
@@ -217,6 +218,15 @@ article {
 }
 
 /*------ASIDE------*/
+
+aside{
+  float: right;
+  width: 400px;
+}
+
+aside h4{
+  width: fit-content;
+}
 
 aside div {
   max-width: 40%;
